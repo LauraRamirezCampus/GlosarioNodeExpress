@@ -31,3 +31,35 @@ Se necesita **Nvm** el cual es una herramienta que permite administrar múltiple
 *  lista todas las versiones de Node.js disponibles para instalar.
   
   ```nvm ls-remote```
+
+## __Nodemon:__
+
+ Es una herramienta de desarrollo para aplicaciones Node.js  que facilita la ejecucion de codigo sin necesidad de reiniciar la aplicacion ya que lo hace de forma automatica detectando los cambios realizados.
+
+**Caracteristicas de Nodemon:**
+* Reinicio automático
+* Soporte amplio
+* Detalles de reinicio controlados
+* Integración con scripts personalizados
+* Modo silencioso
+* Configuración flexible
+* Amplia comunidad y soporte activo
+
+**Instalación**
+*  Ejecutar el siguiente comando(Se creará un archivo package.json con los valores predeterminados.):
+
+    ```npm init -y                                                         ```
+
+* Realiza una modificación en el archivo package.json para definir "app.js" 
+como el archivo principal de la aplicación y organizarlo de forma modular.
+
+* Comando para instalar **Nodemon**
+```npm i -E -D nodemon                                                  ```
+
+* Modo silencioso de Nodemon
+
+```nodemon --quiet app.js ```
+
+
+
+
